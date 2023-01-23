@@ -1,0 +1,295 @@
+.color-heading, .fonts-title, .font-styles-title {
+  font-family: 'Quicksand';
+  font-size: 45px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+/*Header Section*/
+
+header {
+
+    color: #23001E;
+    text-shadow: 5px 5px 15px #A4A9AD;
+    padding: 10px;
+    font-family: 'Dosis';
+  }
+
+  .main-header {
+    font-size: 50px;
+  }
+
+  #github-link {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+
+  #github-link img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #github-link:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+
+  header h1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .page-description {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 32px;
+  }
+  
+  nav a {
+    color: #fff;
+    background-color: #EF5B5B;
+    box-shadow: 0px 1px 2px #23001E;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 15px;
+    transition: all 0.3s ease-out;
+  }
+
+  nav a:hover {
+    color: #23001E;
+    background-color: #d71717;
+    transform: scale(1.1);
+  }
+
+
+/*Color Section*/
+
+#colors {
+  margin-top: 50px;
+}
+
+.color-heading {
+    text-align: center;
+}
+
+/*Color Cards Style*/
+
+.color-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Dosis';
+ }
+
+   .card {
+    width: 190px;
+    height: 150px;
+    padding: .8em;
+    background: #e1dee0d7;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+    margin: 10px 20px;
+   }
+   
+   .card-img {
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    transition: .3s ease;
+   }
+
+    .maximum-yellow-red {
+    background-color: #FFBA19;
+   }
+
+   .dark-purple {
+    background-color: #23001E;
+   }
+
+   .red-salsa {
+    background-color: #EF5B5B;
+   }
+
+   .quick-silver {
+    background-color: #A4A9AD;
+   }
+   
+   .light-sea-green {
+    background-color: #20A39E;
+   }
+
+   .card-info {
+    padding-top: 5%;
+   }
+   
+   
+   /*Text Card*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1;
+    text-align: center;
+   }
+   
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   
+   /*Color Hover Effect*/
+   .card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+
+/*Font Section*/ 
+
+#fonts {
+  margin-top: 50px;
+}
+
+.fonts-title {
+  text-align: center;
+}
+
+#fonts h3 {
+  color: #23001E;
+}
+
+/*Font Container, Card & Content*/
+.fonts-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ }
+
+ .fonts-card {
+  width: 750px;
+  height: 850px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,  -15px -15px 30px #ffffff;
+  margin: 10px 20px;
+  overflow: auto;
+
+ }
+
+ .fonts-card #dosis-lorem, #quicksand-lorem {
+    text-align: center;
+    font-size: 30px;
+ }
+
+
+ ul {
+  list-style: none;
+ }
+
+/*Dosis Card Content Section*/
+
+.dosis-lorem {
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 35px;
+}
+
+.dosis-list {
+  font-family: 'Dosis';
+}
+
+ .font-style-dosis {
+  font-size: 35px;
+  font-weight: bold;
+ }
+
+ p.bold {
+  font-weight: bold;
+ }
+
+ p.italic {
+  font-style: italic;
+ }
+/*Quicksand Card Content Section*/
+
+.quicksand-lorem {
+  font-family: 'Quicksand';
+  text-align: center;
+  font-size: 35px;
+}
+
+.quicksand-list {
+  font-family: 'Quicksand';
+}
+
+.font-style-quicksand {
+  font-size: 35px;
+}
+
+/*Font Styles Section*/
+#font-styles {
+  padding-top: 25px
+}
+
+.font-styles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.font-styles-title {
+  text-align: center;
+}
+
+.font-styles-card {
+  width: 400px;
+  height: 340px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 10px 25px;
+}
+
+.font-styles-card h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.font-attributes {
+  font-size: 30px;
+  margin: 15px 0;
+  font-family: 'Dosis';
+}
